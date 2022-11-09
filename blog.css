@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+  }
+  h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+  }
+  h2{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+  }
+  pre{
+    color: white;
+  }
+  address{
+    color: white;
+  }
+  p {
+    color: blueviolet;
+    font-size: 30px;
+    border: 2px solid blueviolet;
+    padding: 30px;
+    margin: 50px;
+  }
+  a:link{
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: outset;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: gray;
+}
+/* th:nth-child(even),td:nth-child(even) {
+  background-color: gray;
+} */
